@@ -1,2 +1,11 @@
 # Assignment-8---MongoDB-Blog-Model
-Blog Model - DB creation, insertion of data to collection, query outputs
+
+collections:
+
+* **users** 
+* **articles**
+* **categories**
+* **tags**
+* **comments** 
+
+The database name : **`Blog_Model`**.
