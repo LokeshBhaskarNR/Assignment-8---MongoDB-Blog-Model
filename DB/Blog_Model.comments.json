@@ -1,0 +1,135 @@
+[{
+  "_id": 1,
+  "article_id": 1,
+  "user_id": 2,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Great insights Lokesh!"
+},
+{
+  "_id": 2,
+  "article_id": 1,
+  "user_id": 3,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Very useful article."
+},
+{
+  "_id": 3,
+  "article_id": 1,
+  "user_id": 4,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Nicely explained!"
+},
+{
+  "_id": 4,
+  "article_id": 2,
+  "user_id": 5,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Well written!"
+},
+{
+  "_id": 5,
+  "article_id": 2,
+  "user_id": 3,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Thanks for sharing."
+},
+{
+  "_id": 6,
+  "article_id": 2,
+  "user_id": 2,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Very informative."
+},
+{
+  "_id": 7,
+  "article_id": 3,
+  "user_id": 1,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Nice yoga tips!"
+},
+{
+  "_id": 8,
+  "article_id": 3,
+  "user_id": 4,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Easy to follow."
+},
+{
+  "_id": 9,
+  "article_id": 3,
+  "user_id": 5,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Good one Suresh."
+},
+{
+  "_id": 10,
+  "article_id": 4,
+  "user_id": 1,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Helpful advice."
+},
+{
+  "_id": 11,
+  "article_id": 4,
+  "user_id": 3,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Great nutrition guide."
+},
+{
+  "_id": 12,
+  "article_id": 4,
+  "user_id": 5,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Very practical."
+},
+{
+  "_id": 13,
+  "article_id": 5,
+  "user_id": 2,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "I want to visit Kerala too!"
+},
+{
+  "_id": 14,
+  "article_id": 5,
+  "user_id": 4,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Great travel story."
+},
+{
+  "_id": 15,
+  "article_id": 5,
+  "user_id": 5,
+  "date": {
+    "$date": "2025-09-06T06:54:09.774Z"
+  },
+  "text": "Kerala is beautiful!"
+}]

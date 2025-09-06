@@ -1,0 +1,30 @@
+[{
+  "_id": 1,
+  "name": "Lokesh",
+  "email": "lokesh@gmail.com",
+  "credits": 450
+},
+{
+  "_id": 2,
+  "name": "Suresh",
+  "email": "suresh@gmail.com",
+  "credits": 380
+},
+{
+  "_id": 3,
+  "name": "Manoj",
+  "email": "manoj@gmail.com",
+  "credits": 210
+},
+{
+  "_id": 4,
+  "name": "Karthik",
+  "email": "karthik@gmail.com",
+  "credits": 320
+},
+{
+  "_id": 5,
+  "name": "Anitha",
+  "email": "anitha@gmail.com",
+  "credits": 150
+}]

@@ -1,0 +1,143 @@
+
+
+>_MONGOSH
+
+use Blog_Model
+switched to db Blog_Model
+ 
+ 
+ 
+ 
+db.users.insertMany([
+  { _id: 1, name: "Lokesh", email: "lokesh@gmail.com", credits: 450 },
+  { _id: 2, name: "Suresh", email: "suresh@gmail.com", credits: 380 },
+  { _id: 3, name: "Manoj", email: "manoj@gmail.com", credits: 210 },
+  { _id: 4, name: "Karthik", email: "karthik@gmail.com", credits: 320 },
+  { _id: 5, name: "Anitha", email: "anitha@gmail.com", credits: 150 }
+]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': 1,
+    '1': 2,
+    '2': 3,
+    '3': 4,
+    '4': 5
+  }
+}
+ 
+ 
+ 
+ 
+ 
+db.categories.insertMany([
+  { _id: 1, name: "Technology" },
+  { _id: 2, name: "Health" },
+  { _id: 3, name: "Travel" }
+]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': 1,
+    '1': 2,
+    '2': 3
+  }
+}
+ 
+ 
+ 
+db.tags.insertMany([
+  { _id: 1, name: "AI" },
+  { _id: 2, name: "Fitness" },
+  { _id: 3, name: "Adventure" }
+]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': 1,
+    '1': 2,
+    '2': 3
+  }
+}
+ 
+ 
+ 
+ 
+db.articles.insertMany([
+  { _id: 1, user_id: 1, title: "AI for Everyone", date: new Date(), text: "Intro to AI basics", url: "url1", categories: [1], tags: [1] },
+  { _id: 2, user_id: 1, title: "Tech in India", date: new Date(), text: "Technology trends in India", url: "url2", categories: [1], tags: [1] },
+  
+  { _id: 3, user_id: 2, title: "Yoga for Beginners", date: new Date(), text: "Simple yoga steps", url: "url3", categories: [2], tags: [2] },
+  { _id: 4, user_id: 2, title: "Healthy Eating", date: new Date(), text: "Nutrition advice", url: "url4", categories: [2], tags: [2] },
+  
+  { _id: 5, user_id: 3, title: "Trip to Kerala", date: new Date(), text: "Travel experience in Kerala", url: "url5", categories: [3], tags: [3] },
+  { _id: 6, user_id: 3, title: "Backpacking South India", date: new Date(), text: "Backpacking tips", url: "url6", categories: [3], tags: [3] },
+  
+  { _id: 7, user_id: 4, title: "AI in Medicine", date: new Date(), text: "How AI helps healthcare", url: "url7", categories: [1,2], tags: [1,2] },
+  { _id: 8, user_id: 4, title: "Daily Workouts", date: new Date(), text: "Simple daily workouts", url: "url8", categories: [2], tags: [2] },
+  
+  { _id: 9, user_id: 5, title: "Adventure in Nilgiris", date: new Date(), text: "Trekking in Nilgiris", url: "url9", categories: [3], tags: [3] },
+  { _id: 10, user_id: 5, title: "Tech for Travelers", date: new Date(), text: "How tech helps travelers", url: "url10", categories: [1,3], tags: [1,3] }
+]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': 1,
+    '1': 2,
+    '2': 3,
+    '3': 4,
+    '4': 5,
+    '5': 6,
+    '6': 7,
+    '7': 8,
+    '8': 9,
+    '9': 10
+  }
+}
+ 
+ 
+ 
+ 
+db.comments.insertMany([
+
+  { _id: 1, article_id: 1, user_id: 2, date: new Date(), text: "Great insights Lokesh!" },
+  { _id: 2, article_id: 1, user_id: 3, date: new Date(), text: "Very useful article." },
+  { _id: 3, article_id: 1, user_id: 4, date: new Date(), text: "Nicely explained!" },
+
+  { _id: 4, article_id: 2, user_id: 5, date: new Date(), text: "Well written!" },
+  { _id: 5, article_id: 2, user_id: 3, date: new Date(), text: "Thanks for sharing." },
+  { _id: 6, article_id: 2, user_id: 2, date: new Date(), text: "Very informative." },
+
+  { _id: 7, article_id: 3, user_id: 1, date: new Date(), text: "Nice yoga tips!" },
+  { _id: 8, article_id: 3, user_id: 4, date: new Date(), text: "Easy to follow." },
+  { _id: 9, article_id: 3, user_id: 5, date: new Date(), text: "Good one Suresh." },
+
+  { _id: 10, article_id: 4, user_id: 1, date: new Date(), text: "Helpful advice." },
+  { _id: 11, article_id: 4, user_id: 3, date: new Date(), text: "Great nutrition guide." },
+  { _id: 12, article_id: 4, user_id: 5, date: new Date(), text: "Very practical." },
+
+  { _id: 13, article_id: 5, user_id: 2, date: new Date(), text: "I want to visit Kerala too!" },
+  { _id: 14, article_id: 5, user_id: 4, date: new Date(), text: "Great travel story." },
+  { _id: 15, article_id: 5, user_id: 5, date: new Date(), text: "Kerala is beautiful!" }
+]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': 1,
+    '1': 2,
+    '2': 3,
+    '3': 4,
+    '4': 5,
+    '5': 6,
+    '6': 7,
+    '7': 8,
+    '8': 9,
+    '9': 10,
+    '10': 11,
+    '11': 12,
+    '12': 13,
+    '13': 14,
+    '14': 15
+  }
+}
+
