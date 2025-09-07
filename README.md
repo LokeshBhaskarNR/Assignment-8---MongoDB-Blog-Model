@@ -1,6 +1,6 @@
 # Assignment-8---MongoDB-Blog-Model
 
-## PDF FILE : [📄 View the PDF](BLOG%20MODEL%20-%20OUTPUT.pdf)
+## PDF FILE : [View  PDF](BLOG_MODEL_OUTPUT.pdf)
 
 
 collections:
