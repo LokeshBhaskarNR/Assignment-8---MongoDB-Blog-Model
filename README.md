@@ -1,5 +1,8 @@
 # Assignment-8---MongoDB-Blog-Model
 
+## PDF FILE : [](docs/file.pdf)
+
+
 collections:
 
 * **users** 
